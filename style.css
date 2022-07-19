@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+:root{
+    --primary-color:rgb(76, 172, 173);
+    --secondary-color:rgb(214, 85, 85);
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+
+header{
+  background-color: var(--secondary-color);
+}
+
+h1,p{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.heading{
+    font-size: 3rem;
+    padding: 0.5rem 0.5rem;
+    letter-spacing: 2px;
+}
+
+.description{
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+
+main{
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    background-color: var(--primary-color);
+    border: 0.5rem;
+    margin:auto;
+}
+
+.bill{
+    margin: 1rem;
+    padding: 1rem;
+}
+.bill,.cash{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-label{
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+.input{
+    font-size: 16px;
+    outline: #fff;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    border: 2px solid var(--secondary-color);
+    width: 80%;
+    max-width: 258px;
+    text-align: center;
+}
+
+.next-btn, .check-btn{
+    font-size: 1.2rem;
+    padding: 0.2rem 2rem;
+    margin-top: 0.5rem;
+    letter-spacing: 0.2rem;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 2px 2px orange;
+}
+
+.next-btn:hover,.check-btn:hover{
+    background-color: var(--secondary-color);
+    
+}
+
+.bill-error, .cash-error{
+    padding: 0.2rem 3rem;
+    margin: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color: rgb(160, 202, 86);
+    color: #fff;
+    border-radius: 0.5rem;
+
+}
+ 
+.paid{
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: blueviolet;
+    padding: 0.2rem 0.5rem;
+    margin: 0.5rem auto;
+    border-radius: 0.5rem;
+}
+
+
+/*table*/
+
+.table-heading{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0.5rem auto;
+}
+
+.table-change{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-collapse: collapse;
+    font-size: 1.2rem;
+    margin: auto;
+}
+
+th,td{
+    border: 2px solid var(--secondary-color);
+    padding: 0.5rem;
+}
+
+td{
+    padding:0.8rem;
+}
+
+
+
