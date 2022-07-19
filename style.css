@@ -138,7 +138,7 @@ td{
     padding:0.8rem;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 425px) {
     .table-change {
       margin: 0.8rem;
     }
