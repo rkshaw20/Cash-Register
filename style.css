@@ -138,9 +138,14 @@ td{
     padding:0.8rem;
 }
 
-@media (max-width: 425px) {
+/* @media (max-width: 425px) {
     .table-change {
       font-size: 1rem;
     }
-  }
+  } */
 
+  @media only screen and (max-width: 900px) {
+    body {
+      max-width: 90%;
+    }
+    }
