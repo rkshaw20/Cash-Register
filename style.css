@@ -104,7 +104,7 @@ main{
 .paid{
     font-size: 1.2rem;
     font-weight: 600;
-    background-color: blueviolet;
+    background-color: rgb(101, 183, 85);
     padding: 0.2rem 0.5rem;
     margin: 0.5rem auto;
     border-radius: 0.5rem;
@@ -138,9 +138,9 @@ td{
     padding:0.8rem;
 }
 
-/* @media (max-width: 900px) {
-    .list-holder {
+@media (max-width: 900px) {
+    .table-change {
       margin: 0.8rem;
     }
-  } */
+  }
 
